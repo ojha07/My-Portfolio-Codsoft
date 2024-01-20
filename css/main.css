@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000;
+    color: white;
+}
+
+.merge-container{
+    display: flex;
+}
+
+.head-nav-bar{
+    background-color: gray;
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 85vh;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav{
+    padding: 0;
+    /* margin: 5.5rem; */
+    margin: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navigation{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 2rem;
+    letter-spacing: 2px;
+    padding: 32px 3px 32px 3px;
+    margin: -9px;
+}
+
+.social-media{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 8rem;
+}
+
+.social-media ul li{
+    display: inline;
+}
+
+.copyright{
+    position: relative;
+    top: 13rem;   
+}
+
+.main-container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 8px;
+    background: rgb(181, 181, 181);
+    transition: 3ms;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1);
+    background-color: rgb(162, 75, 85);
+}
+
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-container h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-container h1:hover{
+    cursor: default;
+}
+
+.myself-container{
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-of-myself
+{
+    border: 1px solid white;
+    width: 45%;
+    padding: 10px;
+}
+
+.img-myself{
+    width: 250px;
+    height: 250px;
+}
+
+.skill-container{
+    display: flex;
+}
+
+.sub-skill-container{
+    /* border: 1px solid white; */
+    padding: 15px;
+    width: 395px;
+}
+
+.tech-skills{
+    position: relative;
+    left: 100px;
+}
+
+.tech-skill-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.edu-container{
+    position: relative;
+    left: 30%;
+}
+
+.edu-container{
+    height: 200px;
+    width: 50%;
+}
+
+.instute{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.project{
+    display: block;
+    /* justify-content: center; */
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-pro-container{
+    border: 1px solid white;
+    padding: 15px;
+    width: 355px;
+    height: 150px;
+}
+
+.jarvis{
+    background-image: url(/img/jarvis.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sps{
+    background-image: url(/img/sps.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chatbot{
+    background-image: url(/img/chatbot2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.darshan{
+    background-image: url(/img/darshan.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact-text{
+    /* border: 1px solid white; */
+    position: relative;
+    left: 167px;
+    text-decoration: underline;
+    margin-top: 2.8rem;
+}
+
+.contact-para{
+    width: 30%;
+    position: relative;
+    left: 167px;
+}
+
+.contact-me{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 298px;
+    top: 2.8rem;
+}
+
+.contact-details{
+    /* border: 1px solid white; */
+    display: flex;    
+}
+
+.mail-sec, .phone-sec{
+    padding: 10px;
+}
+
+.mail-sec a{
+    color: white;
+    text-decoration: none;
+}
+
+.phone-sec a{
+    color: white;
+    text-decoration: none;
+}
