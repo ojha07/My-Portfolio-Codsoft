@@ -243,3 +243,10 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+.end-line{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
